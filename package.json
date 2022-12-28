@@ -1,0 +1,23 @@
+{
+  "name": "facebook-clone-in-tailwind-css",
+  "version": "1.0.0",
+  "description": "Creating a Facebook login page Clone Using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": " npx tailwindcss -i TailwindInputCss.css -o TailwindOutputCss.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalajiSai2003/Facebook-Clone-in-Tailwind-CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalajiSai2003/Facebook-Clone-in-Tailwind-CSS/issues"
+  },
+  "homepage": "https://github.com/BalajiSai2003/Facebook-Clone-in-Tailwind-CSS#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
