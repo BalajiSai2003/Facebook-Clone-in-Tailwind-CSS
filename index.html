@@ -4,10 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="TailwindOutputCss.css" rel="stylesheet">
+  <title>Facebook - login or sign up</title>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="bg-gray-100 md:mx-auto flex">
+  <div class="main md:mt-32 md:flex mx-auto md:items-center md:justify-center">
+    <div class="leftPart mt-4 w-96 md:mx-14 md:w-[38rem]">
+        <img class="max-w-[290px] " src="./Images/FaceBookLogo.svg" alt="FaceBookLogo">
+        <h1 class="text-2xl font-normal md:mx-6">Facebook helps you connect and share with the people in your life.</h1>
+    </div>
+    <div class="rightPart my-4 flex flex-col bg-white w-96 p-8 rounded-xl shadow-xl content-center">
+        <input class="px-4 h-12 my-2 border border-1 border-gray-200 rounded-lg" type="text" placeholder="Email address or phone number">
+        <input class="px-4 h-12 my-2 border border-1 border-gray-200 rounded-lg" type="password" placeholder="Password">
+        <button class="bg-blue-500 text-white text-lg font-bold py-2 rounded-lg my-2 hover:bg-blue-600">Log In</button>
+        <span class="my-2 text-blue-500 hover:underline cursor-pointer">Forgot password?</span>
+        <hr class="my-2 ">
+        <button class="bg-[#42b72a] text-white rounded-lg my-2 py-2 mx-auto text-lg font-bold w-fit px-3 hover:bg-[#22860e]">Create New Account</button>
+    </div>
+  </div>
 </body>
 </html>
